@@ -2,6 +2,11 @@
   "name": "dhedge-trading",
   "version": "1.0.0",
   "description": "Historical chain querying to collect trading comp data",
+  "author": {
+    "name": "Jake Mc",
+    "email": "jake.mc@icloud.com",
+    "url": "https://github.com/startswithaj"
+  },
   "main": "src/index.ts",
   "license": "MIT",
   "scripts": {

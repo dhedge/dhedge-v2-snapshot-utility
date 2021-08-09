@@ -1,6 +1,6 @@
 import { BigNumber, ethers } from "ethers";
 import config from "../config";
-import { executeInSeries } from "../lib/executeInSeriece";
+import { executeInSeries } from "../lib/executeInSeries";
 
 const MAX_BLOCKS = 50000;
 

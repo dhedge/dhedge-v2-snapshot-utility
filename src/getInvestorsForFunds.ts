@@ -1,7 +1,7 @@
 import { ethers } from "ethers";
 import fs from "fs";
 import config from "./config";
-import { executeInSeries } from "./lib/executeInSeriece";
+import { executeInSeries } from "./lib/executeInSeries";
 import { PoolLogicServiceFactory } from "./factory/PoolLogicServiceFactory";
 
 const alchemyProvider = new ethers.providers.JsonRpcProvider(config.alchemyUrl);
