@@ -10,7 +10,7 @@ export interface DateBlocks {
   block: number;
 }
 
-export const getDateBlocks = (
+export const getDateBlocksAtDailyInterval = (
   startDate: string,
   endDate: string
 ): Promise<DateBlocks[]> => {
@@ -29,4 +29,36 @@ export const getDateBlocks = (
   );
 
   return dateBlocks$;
+};
+
+export const getDateBlocks = (
+  startDate: string,
+  endDate: string
+): Promise<DateBlocks[]> => {
+  const alchemyProvider = new ethers.providers.JsonRpcProvider(
+    config.alchemyUrl
+  );
+
+  const dater = new EthDater(
+    alchemyProvider // Ethers provider, required.
+  );
+
+  return Promise.all(
+    [startDate, endDate].map((date) => {
+      //  { date: '2019-09-02T12:00:00Z', block: 8470641, timestamp: 1567425601 },[]
+      return dater.getDate(date);
+    })
+  );
+};
+
+export const getDateBlock = (date: string): Promise<DateBlocks> => {
+  const alchemyProvider = new ethers.providers.JsonRpcProvider(
+    config.alchemyUrl
+  );
+
+  const dater = new EthDater(
+    alchemyProvider // Ethers provider, required.
+  );
+
+  return dater.getDate(date);
 };

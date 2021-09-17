@@ -4,16 +4,19 @@ import PoolLogicAbi from "../abi/PoolLogicAbi";
 const config = {
   // Because investors could have entered before the trading comp starts
   // This cannot be the same as the startDate and endDate of the comp :/
-  investorEnteredBlockStart: 17495370, //17000000,
-  investorEnteredBlockEnd: 17644934,
+  investorEnteredBlockStart: 17495370, // Aug-01-2021 12:00:07 PM +UTC
+  investorEnteredBlockEnd: 19115834, // Sep-15-2021 12:00:00 AM +UTC
+  prize: 50000,
+  days: 31,
+  snapShotStartDate: "2021-08-16T00:00:00Z",
+  snapShotEndDate: "2021-09-15T00:00:00Z",
 
-  snapShotStartDate: "2021-08-01T12:00:00Z",
-  snapShotEndDate: "2021-08-05T12:00:00Z",
-
-  deployedFundsFile: "deployedFunds.json",
+  winningFundsFile: "winningFunds.json",
   fundToInvestorsFile: "fundToInvestors.json",
   dateBlocksFile: "dateBlocks.json",
-  resultsFile: "results.json",
+  investmentsPerFundPerInvestorPerBlock:
+    "investmentsPerFundPerInvestorPerBlock.json",
+  results: "results.json",
 
   alchemyUrl:
     "https://polygon-mainnet.g.alchemy.com/v2/5fwlN7S8XXrs6q1CeWBPL4mYyhius8yM",

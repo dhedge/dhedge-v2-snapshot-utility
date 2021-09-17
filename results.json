@@ -1,0 +1,142 @@
+[
+    {
+        "investorId": "0xFdA93e97CAA77D7D1aaeC698a1a5419D73013313",
+        "reward": 17706.928624166518
+    },
+    {
+        "investorId": "0x72bF0778874FC88F3e95ADaEcDD983B2Be665476",
+        "reward": 12724.417152669826
+    },
+    {
+        "investorId": "0xEe7543aDc854E325DB2fa69c49F97E76C17B7f7c",
+        "reward": 7449.652403532617
+    },
+    {
+        "investorId": "0x7ED6Cb6a49d1d8Fc926B28BE03D99d2dB8c4ea91",
+        "reward": 3501.7200736682703
+    },
+    {
+        "investorId": "0xd18ca6ad07e9D3FF226202c0e22cB4A555B44e74",
+        "reward": 2835.1572464217184
+    },
+    {
+        "investorId": "0x5C89C420A9E82Ea9AEDBaAab03302e39982919b9",
+        "reward": 2390.6109423085636
+    },
+    {
+        "investorId": "0x27D23DDE3573D27f80B8bf7311f8403246FA48Be",
+        "reward": 1002.7306198444207
+    },
+    {
+        "investorId": "0xddD5Eff8001402EbBcF80d1ECcD1b9a6F801e6Aa",
+        "reward": 744.1502438688082
+    },
+    {
+        "investorId": "0xEE58FCeE1a11D0EC79dDE3116688ca3efBE6B7cC",
+        "reward": 524.1004727708594
+    },
+    {
+        "investorId": "0x546E1fdbe7776728103cC7B47Ba1c542682F08AE",
+        "reward": 351.2471053112109
+    },
+    {
+        "investorId": "0x2Bb9e536a8d97D8cb8aFB10732763f0a735E84ef",
+        "reward": 237.686922462888
+    },
+    {
+        "investorId": "0x7f3B478DD41BcCc3e487e56F0b04644D48574d43",
+        "reward": 133.33400274338618
+    },
+    {
+        "investorId": "0x67573bc6f0b18BB41da48355f534b296D83D98A8",
+        "reward": 130.35370803650304
+    },
+    {
+        "investorId": "0xeCfFDB475f09829963D1fDCf98aCAc7174303C07",
+        "reward": 110.75417110763578
+    },
+    {
+        "investorId": "0x4d5be057de46aAAC13f0A09a97b04bDAc1B23eAb",
+        "reward": 29.451837394169907
+    },
+    {
+        "investorId": "0xc0AFEF712a1341cA78dA145B2AFAd346E8C3574F",
+        "reward": 21.191876668419987
+    },
+    {
+        "investorId": "0x643700b0703C013a66d20F85538006fE3d497669",
+        "reward": 18.32095656638611
+    },
+    {
+        "investorId": "0x00309826dc86140Ef9f11aBFa3742Df035A10934",
+        "reward": 16.11070829539224
+    },
+    {
+        "investorId": "0xa46B22F00402F9eD3715Cb7c74AdF7ba7BA8F1FE",
+        "reward": 13.905574015830313
+    },
+    {
+        "investorId": "0xf28eA36e3E68Aff0e8c9bFF8037ba2150312ac48",
+        "reward": 12.504656533934874
+    },
+    {
+        "investorId": "0x621c82a583093B202AA0c643BacE600601a68a06",
+        "reward": 10.522144305681406
+    },
+    {
+        "investorId": "0x03adD3ECa3D0Cc46bFe2908894dc3a0C881bb7E4",
+        "reward": 8.127438999385745
+    },
+    {
+        "investorId": "0xceCbc0D29143C7A710b1C06F4E0213E6fA935e6E",
+        "reward": 7.8691651892418975
+    },
+    {
+        "investorId": "0x0122F83912932a2D3631340168795c42B6716290",
+        "reward": 7.550428173710625
+    },
+    {
+        "investorId": "0x865FC5C542280C9Dba0D559f67112179e20574D2",
+        "reward": 4.768989686184638
+    },
+    {
+        "investorId": "0x2238CD876a4686245c9fae47cb69fCb687973610",
+        "reward": 2.3587738303563754
+    },
+    {
+        "investorId": "0xBff86bBe3Ccdf37E7a2c307D5B895ad6F766373A",
+        "reward": 1.6397207840087156
+    },
+    {
+        "investorId": "0xB6F37FeCb21A261f5f2E38463Ab7cAbF1CE5bD23",
+        "reward": 1.1543772846322078
+    },
+    {
+        "investorId": "0xCB04F9F5E1Ac544dfFb0d479b696e7AAdb76dBFB",
+        "reward": 0.47731823969365667
+    },
+    {
+        "investorId": "0x446e8C0af98A03CCC7ce4Af821362b281e787b47",
+        "reward": 0.46224563022795995
+    },
+    {
+        "investorId": "0xe89c6a37a790b1C2391C62005205f982948785cC",
+        "reward": 0.3484501753474949
+    },
+    {
+        "investorId": "0x5cB93dD27016E749CEB05C6D1655eC0007929772",
+        "reward": 0.2618862553861279
+    },
+    {
+        "investorId": "0x38D59b199747A6FeD17407Ee1258Acb242752200",
+        "reward": 0.07290997586445513
+    },
+    {
+        "investorId": "0x7019756d7b9F359D788B78fCEE4423B856d1804F",
+        "reward": 0.04048408626495905
+    },
+    {
+        "investorId": "0xBf47745b95463801A92031C50DAa68579734A89D",
+        "reward": 0.016368996651959573
+    }
+]

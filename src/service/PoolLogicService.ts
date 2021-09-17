@@ -2,7 +2,7 @@ import { BigNumber, ethers } from "ethers";
 import config from "../config";
 import { executeInSeries } from "../lib/executeInSeries";
 
-const MAX_BLOCKS = 50000;
+const MAX_BLOCKS = 2000;
 
 export class PoolLogicService {
   constructor(private poolLogicContract: ethers.Contract) {}
@@ -13,16 +13,9 @@ export class PoolLogicService {
   ): Promise<{ block: number; balance: BigNumber }[]> {
     return Promise.all(
       blocks.map((block) => {
-        return this.getBalanceAtBlock(investorId, block)
-          .then((balance) => {
-            return { balance, block };
-          })
-          .catch(() => {
-            // Sometimes the contract doesn't exist at the block we're executing at
-            // Need to more specifically handle this error
-            // web3.eth.getCode(fundId, block) !== "0x"
-            return { balance: BigNumber.from(0), block: block };
-          });
+        return this.getBalanceAtBlock(investorId, block).then((balance) => {
+          return { balance, block };
+        });
       })
     );
   }
@@ -66,20 +59,11 @@ export class PoolLogicService {
   > {
     return Promise.all(
       blocks.map((block) => {
-        return this.getTotalSupplyAndPriceAtBlock(block)
-          .then((totalSupplyAndTokenPrice) => {
+        return this.getTotalSupplyAndPriceAtBlock(block).then(
+          (totalSupplyAndTokenPrice) => {
             return { block, ...totalSupplyAndTokenPrice };
-          })
-          .catch(() => {
-            // Sometimes the contract doesn't exist at the block we're executing at
-            // Need to more specifically handle this error
-            // web3.eth.getCode(fundId, block) !== "0x"
-            return {
-              block,
-              totalSupply: BigNumber.from(0),
-              tokenPrice: BigNumber.from(0),
-            };
-          });
+          }
+        );
       })
     ).then((totalSupplyBlocks) => {
       return totalSupplyBlocks.reduce((acc, blockWithSupply) => {

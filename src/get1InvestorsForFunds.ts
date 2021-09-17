@@ -12,13 +12,20 @@ export type FundWithInvestors = {
   investors: string[] | undefined;
 };
 
-const deployedFundsRaw = fs.existsSync(config.deployedFundsFile)
-  ? fs.readFileSync(config.deployedFundsFile, "utf-8")
+export type winningFundsFile = {
+  fundId: string;
+  enteredCompAtDate: string;
+};
+
+const winningFundsFileRaw = fs.existsSync(config.winningFundsFile)
+  ? fs.readFileSync(config.winningFundsFile, "utf-8")
   : "[]";
 
-const deployedFunds: string[] = JSON.parse(deployedFundsRaw.toString());
+const winningFundsFile: winningFundsFile[] = JSON.parse(
+  winningFundsFileRaw.toString()
+);
 
-console.log("Fetching investors for funds: ", deployedFunds);
+console.log("Fetching investors for funds: ", winningFundsFile);
 
 const fundToInvestorsRaw = fs.existsSync(config.fundToInvestorsFile)
   ? fs.readFileSync(config.fundToInvestorsFile, "utf-8")
@@ -30,16 +37,16 @@ const existingFundsWithInvestors: FundWithInvestors[] = JSON.parse(
 
 console.log("Existing fund investor state", existingFundsWithInvestors);
 
-const investorsPromises = deployedFunds
-  .filter((fundId) => {
+const investorsPromises = winningFundsFile
+  .filter((deployedFund) => {
     const alreadyExists = existingFundsWithInvestors.find(
-      (x) => x.fundId === fundId
+      (x) => x.fundId === deployedFund.fundId
     );
     // So that we can run this script again if it fails we only refetch
     // Investors for funds that have failed (are undefined) previously
     return !alreadyExists?.investors;
   })
-  .map((fundId) => {
+  .map(({ fundId }) => {
     return async () => {
       console.log("Fetching all investors for fund: ", fundId);
       const investors = await poolLogicServiceFactory
