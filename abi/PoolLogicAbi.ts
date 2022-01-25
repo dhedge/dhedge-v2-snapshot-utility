@@ -281,12 +281,12 @@ const PoolLogicAbi = [
           },
           {
             internalType: "bool",
-            name: "withdrawProcessed",
+            name: "externalWithdrawProcessed",
             type: "bool",
           },
         ],
         indexed: false,
-        internalType: "struct PoolLogicV24.WithdrawnAsset[]",
+        internalType: "struct PoolLogic.WithdrawnAsset[]",
         name: "withdrawnAssets",
         type: "tuple[]",
       },
@@ -354,7 +354,25 @@ const PoolLogicAbi = [
     outputs: [
       {
         internalType: "uint256",
-        name: "",
+        name: "fee",
+        type: "uint256",
+      },
+    ],
+    stateMutability: "view",
+    type: "function",
+  },
+  {
+    inputs: [],
+    name: "availableManagerFeeAndTotalFundValue",
+    outputs: [
+      {
+        internalType: "uint256",
+        name: "fee",
+        type: "uint256",
+      },
+      {
+        internalType: "uint256",
+        name: "fundValue",
         type: "uint256",
       },
     ],
@@ -460,7 +478,7 @@ const PoolLogicAbi = [
     outputs: [
       {
         internalType: "uint256",
-        name: "",
+        name: "liquidityMinted",
         type: "uint256",
       },
     ],
@@ -549,7 +567,7 @@ const PoolLogicAbi = [
     outputs: [
       {
         internalType: "uint256",
-        name: "",
+        name: "exitCooldown",
         type: "uint256",
       },
     ],
@@ -568,7 +586,7 @@ const PoolLogicAbi = [
     outputs: [
       {
         internalType: "uint256",
-        name: "",
+        name: "remaining",
         type: "uint256",
       },
     ],
@@ -622,6 +640,35 @@ const PoolLogicAbi = [
       {
         internalType: "uint256",
         name: "",
+        type: "uint256",
+      },
+      {
+        internalType: "uint256",
+        name: "",
+        type: "uint256",
+      },
+      {
+        internalType: "uint256",
+        name: "",
+        type: "uint256",
+      },
+    ],
+    stateMutability: "view",
+    type: "function",
+  },
+  {
+    inputs: [
+      {
+        internalType: "address",
+        name: "_asset",
+        type: "address",
+      },
+    ],
+    name: "getWithdrawSingleMax",
+    outputs: [
+      {
+        internalType: "uint256",
+        name: "fundTokenAmount",
         type: "uint256",
       },
     ],
@@ -719,12 +766,31 @@ const PoolLogicAbi = [
     type: "function",
   },
   {
+    inputs: [
+      {
+        internalType: "address",
+        name: "",
+        type: "address",
+      },
+    ],
+    name: "lastWhitelistTransfer",
+    outputs: [
+      {
+        internalType: "uint256",
+        name: "",
+        type: "uint256",
+      },
+    ],
+    stateMutability: "view",
+    type: "function",
+  },
+  {
     inputs: [],
     name: "managerName",
     outputs: [
       {
         internalType: "string",
-        name: "",
+        name: "_managerName",
         type: "string",
       },
     ],
@@ -828,7 +894,7 @@ const PoolLogicAbi = [
     outputs: [
       {
         internalType: "uint256",
-        name: "",
+        name: "price",
         type: "uint256",
       },
     ],
@@ -842,6 +908,19 @@ const PoolLogicAbi = [
       {
         internalType: "uint256",
         name: "",
+        type: "uint256",
+      },
+    ],
+    stateMutability: "view",
+    type: "function",
+  },
+  {
+    inputs: [],
+    name: "tokenPriceWithoutManagerFee",
+    outputs: [
+      {
+        internalType: "uint256",
+        name: "price",
         type: "uint256",
       },
     ],
@@ -923,6 +1002,42 @@ const PoolLogicAbi = [
       },
     ],
     name: "withdraw",
+    outputs: [],
+    stateMutability: "nonpayable",
+    type: "function",
+  },
+  {
+    inputs: [
+      {
+        internalType: "uint256",
+        name: "_fundTokenAmount",
+        type: "uint256",
+      },
+      {
+        internalType: "address",
+        name: "_asset",
+        type: "address",
+      },
+    ],
+    name: "withdrawSingle",
+    outputs: [],
+    stateMutability: "nonpayable",
+    type: "function",
+  },
+  {
+    inputs: [
+      {
+        internalType: "address",
+        name: "_recipient",
+        type: "address",
+      },
+      {
+        internalType: "uint256",
+        name: "_fundTokenAmount",
+        type: "uint256",
+      },
+    ],
+    name: "withdrawTo",
     outputs: [],
     stateMutability: "nonpayable",
     type: "function",

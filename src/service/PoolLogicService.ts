@@ -89,9 +89,10 @@ export class PoolLogicService {
       end = end - MAX_BLOCKS;
     }
 
-    console.log("Event Request Chunks", chunks);
+    console.log("Event Request Chunks", chunks.length);
 
     const eventPromiseProviders = chunks.map((chunk) => () => {
+      console.log("Fetching Event Chunk", chunk);
       const events = this.poolLogicContract.queryFilter(
         this.poolLogicContract.filters.Deposit(),
         // This is the chunk 🪄
