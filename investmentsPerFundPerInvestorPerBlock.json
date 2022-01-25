@@ -6,6 +6,36 @@
                 "investorID": "0xC575b45b4C424E55EEA8Fc7c9A46433FD848B9C5",
                 "balancesAtBlocksWithTotal": [
                     {
+                        "balance": 0,
+                        "block": 1457109,
+                        "totalSupply": 776.9959281092813,
+                        "tokenPrice": 0.990584949698351
+                    },
+                    {
+                        "balance": 196.91819241323853,
+                        "block": 1494222,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.064223696075786
+                    },
+                    {
+                        "balance": 196.91819241323853,
+                        "block": 1534858,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.0488144879567785
+                    },
+                    {
+                        "balance": 196.91819241323853,
+                        "block": 1564687,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.0607067216931416
+                    },
+                    {
+                        "balance": 196.91819241323853,
+                        "block": 1606165,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.073665490272453
+                    },
+                    {
                         "balance": 333.6517374326503,
                         "block": 1646694,
                         "totalSupply": 2681.1959445213197,
@@ -160,6 +190,36 @@
             {
                 "investorID": "0xb9cabD1830e0C05663D5173219AA374c2fD880Ac",
                 "balancesAtBlocksWithTotal": [
+                    {
+                        "balance": 0,
+                        "block": 1457109,
+                        "totalSupply": 776.9959281092813,
+                        "tokenPrice": 0.990584949698351
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1494222,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.064223696075786
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1534858,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.0488144879567785
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1564687,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.0607067216931416
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1606165,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.073665490272453
+                    },
                     {
                         "balance": 0,
                         "block": 1646694,
@@ -317,6 +377,36 @@
                 "balancesAtBlocksWithTotal": [
                     {
                         "balance": 0,
+                        "block": 1457109,
+                        "totalSupply": 776.9959281092813,
+                        "tokenPrice": 0.990584949698351
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1494222,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.064223696075786
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1534858,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.0488144879567785
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1564687,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.0607067216931416
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1606165,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.073665490272453
+                    },
+                    {
+                        "balance": 0,
                         "block": 1646694,
                         "totalSupply": 2681.1959445213197,
                         "tokenPrice": 1.1077101410990982
@@ -470,6 +560,36 @@
             {
                 "investorID": "0xd8e80c06f9F3A41c85cAd28117e01ebD50fd535e",
                 "balancesAtBlocksWithTotal": [
+                    {
+                        "balance": 0,
+                        "block": 1457109,
+                        "totalSupply": 776.9959281092813,
+                        "tokenPrice": 0.990584949698351
+                    },
+                    {
+                        "balance": 385.74002804647785,
+                        "block": 1494222,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.064223696075786
+                    },
+                    {
+                        "balance": 385.74002804647785,
+                        "block": 1534858,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.0488144879567785
+                    },
+                    {
+                        "balance": 385.74002804647785,
+                        "block": 1564687,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.0607067216931416
+                    },
+                    {
+                        "balance": 385.74002804647785,
+                        "block": 1606165,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.073665490272453
+                    },
                     {
                         "balance": 385.74002804647785,
                         "block": 1646694,
@@ -625,6 +745,36 @@
             {
                 "investorID": "0x8be60fe9F7C8d940D8DA9d5dDD0D8E0c15A4288B",
                 "balancesAtBlocksWithTotal": [
+                    {
+                        "balance": 0,
+                        "block": 1457109,
+                        "totalSupply": 776.9959281092813,
+                        "tokenPrice": 0.990584949698351
+                    },
+                    {
+                        "balance": 240.24198424473806,
+                        "block": 1494222,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.064223696075786
+                    },
+                    {
+                        "balance": 240.24198424473806,
+                        "block": 1534858,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.0488144879567785
+                    },
+                    {
+                        "balance": 240.24198424473806,
+                        "block": 1564687,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.0607067216931416
+                    },
+                    {
+                        "balance": 240.24198424473806,
+                        "block": 1606165,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.073665490272453
+                    },
                     {
                         "balance": 240.24198424473806,
                         "block": 1646694,
@@ -782,6 +932,36 @@
                 "balancesAtBlocksWithTotal": [
                     {
                         "balance": 0,
+                        "block": 1457109,
+                        "totalSupply": 776.9959281092813,
+                        "tokenPrice": 0.990584949698351
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1494222,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.064223696075786
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1534858,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.0488144879567785
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1564687,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.0607067216931416
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1606165,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.073665490272453
+                    },
+                    {
+                        "balance": 0,
                         "block": 1646694,
                         "totalSupply": 2681.1959445213197,
                         "tokenPrice": 1.1077101410990982
@@ -935,6 +1115,36 @@
             {
                 "investorID": "0x458d22044217340A246062aE2813FD9EEc7f3718",
                 "balancesAtBlocksWithTotal": [
+                    {
+                        "balance": 0,
+                        "block": 1457109,
+                        "totalSupply": 776.9959281092813,
+                        "tokenPrice": 0.990584949698351
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1494222,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.064223696075786
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1534858,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.0488144879567785
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1564687,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.0607067216931416
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1606165,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.073665490272453
+                    },
                     {
                         "balance": 0,
                         "block": 1646694,
@@ -1092,6 +1302,36 @@
                 "balancesAtBlocksWithTotal": [
                     {
                         "balance": 0,
+                        "block": 1457109,
+                        "totalSupply": 776.9959281092813,
+                        "tokenPrice": 0.990584949698351
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1494222,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.064223696075786
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1534858,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.0488144879567785
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1564687,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.0607067216931416
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1606165,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.073665490272453
+                    },
+                    {
+                        "balance": 0,
                         "block": 1646694,
                         "totalSupply": 2681.1959445213197,
                         "tokenPrice": 1.1077101410990982
@@ -1245,6 +1485,36 @@
             {
                 "investorID": "0x2f490AD43A1F473B303cAde9BB16039821d12C17",
                 "balancesAtBlocksWithTotal": [
+                    {
+                        "balance": 0,
+                        "block": 1457109,
+                        "totalSupply": 776.9959281092813,
+                        "tokenPrice": 0.990584949698351
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1494222,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.064223696075786
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1534858,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.0488144879567785
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1564687,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.0607067216931416
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1606165,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.073665490272453
+                    },
                     {
                         "balance": 0,
                         "block": 1646694,
@@ -1402,6 +1672,36 @@
                 "balancesAtBlocksWithTotal": [
                     {
                         "balance": 0,
+                        "block": 1457109,
+                        "totalSupply": 776.9959281092813,
+                        "tokenPrice": 0.990584949698351
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1494222,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.064223696075786
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1534858,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.0488144879567785
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1564687,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.0607067216931416
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1606165,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.073665490272453
+                    },
+                    {
+                        "balance": 0,
                         "block": 1646694,
                         "totalSupply": 2681.1959445213197,
                         "tokenPrice": 1.1077101410990982
@@ -1555,6 +1855,36 @@
             {
                 "investorID": "0x90AA5c7a67081409d0b826faCD34600463778a48",
                 "balancesAtBlocksWithTotal": [
+                    {
+                        "balance": 0,
+                        "block": 1457109,
+                        "totalSupply": 776.9959281092813,
+                        "tokenPrice": 0.990584949698351
+                    },
+                    {
+                        "balance": 98.8796992082173,
+                        "block": 1494222,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.064223696075786
+                    },
+                    {
+                        "balance": 98.8796992082173,
+                        "block": 1534858,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.0488144879567785
+                    },
+                    {
+                        "balance": 98.8796992082173,
+                        "block": 1564687,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.0607067216931416
+                    },
+                    {
+                        "balance": 98.8796992082173,
+                        "block": 1606165,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.073665490272453
+                    },
                     {
                         "balance": 98.8796992082173,
                         "block": 1646694,
@@ -1712,6 +2042,36 @@
                 "balancesAtBlocksWithTotal": [
                     {
                         "balance": 0,
+                        "block": 1457109,
+                        "totalSupply": 776.9959281092813,
+                        "tokenPrice": 0.990584949698351
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1494222,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.064223696075786
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1534858,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.0488144879567785
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1564687,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.0607067216931416
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1606165,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.073665490272453
+                    },
+                    {
+                        "balance": 0,
                         "block": 1646694,
                         "totalSupply": 2681.1959445213197,
                         "tokenPrice": 1.1077101410990982
@@ -1865,6 +2225,36 @@
             {
                 "investorID": "0xa904d8da48C3800EEc629099Fa14916dFa1980FB",
                 "balancesAtBlocksWithTotal": [
+                    {
+                        "balance": 0,
+                        "block": 1457109,
+                        "totalSupply": 776.9959281092813,
+                        "tokenPrice": 0.990584949698351
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1494222,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.064223696075786
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1534858,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.0488144879567785
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1564687,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.0607067216931416
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1606165,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.073665490272453
+                    },
                     {
                         "balance": 451.3816218238169,
                         "block": 1646694,
@@ -2021,6 +2411,36 @@
                 "investorID": "0x1C327d791bc5fe5D444352E5529196d56ec1e952",
                 "balancesAtBlocksWithTotal": [
                     {
+                        "balance": 0,
+                        "block": 1457109,
+                        "totalSupply": 776.9959281092813,
+                        "tokenPrice": 0.990584949698351
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1494222,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.064223696075786
+                    },
+                    {
+                        "balance": 0,
+                        "block": 1534858,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.0488144879567785
+                    },
+                    {
+                        "balance": 265.47532041009714,
+                        "block": 1564687,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.0607067216931416
+                    },
+                    {
+                        "balance": 265.47532041009714,
+                        "block": 1606165,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.073665490272453
+                    },
+                    {
                         "balance": 265.47532041009714,
                         "block": 1646694,
                         "totalSupply": 2681.1959445213197,
@@ -2176,6 +2596,36 @@
                 "investorID": "0x9a027B64d6Fc4A77E34AE40F5e6F9310C457737F",
                 "balancesAtBlocksWithTotal": [
                     {
+                        "balance": 0,
+                        "block": 1457109,
+                        "totalSupply": 776.9959281092813,
+                        "tokenPrice": 0.990584949698351
+                    },
+                    {
+                        "balance": 97.40468575277664,
+                        "block": 1494222,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.064223696075786
+                    },
+                    {
+                        "balance": 97.40468575277664,
+                        "block": 1534858,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.0488144879567785
+                    },
+                    {
+                        "balance": 97.40468575277664,
+                        "block": 1564687,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.0607067216931416
+                    },
+                    {
+                        "balance": 97.40468575277664,
+                        "block": 1606165,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.073665490272453
+                    },
+                    {
                         "balance": 97.40468575277664,
                         "block": 1646694,
                         "totalSupply": 2681.1959445213197,
@@ -2330,6 +2780,36 @@
             {
                 "investorID": "0xEe7543aDc854E325DB2fa69c49F97E76C17B7f7c",
                 "balancesAtBlocksWithTotal": [
+                    {
+                        "balance": 776.9959281092813,
+                        "block": 1457109,
+                        "totalSupply": 776.9959281092813,
+                        "tokenPrice": 0.990584949698351
+                    },
+                    {
+                        "balance": 788.5521125284273,
+                        "block": 1494222,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.064223696075786
+                    },
+                    {
+                        "balance": 788.5521125284273,
+                        "block": 1534858,
+                        "totalSupply": 1809.020722684892,
+                        "tokenPrice": 1.0488144879567785
+                    },
+                    {
+                        "balance": 788.5521125284273,
+                        "block": 1564687,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.0607067216931416
+                    },
+                    {
+                        "balance": 788.5521125284273,
+                        "block": 1606165,
+                        "totalSupply": 2074.496043094989,
+                        "tokenPrice": 1.073665490272453
+                    },
                     {
                         "balance": 805.2783736532192,
                         "block": 1646694,
