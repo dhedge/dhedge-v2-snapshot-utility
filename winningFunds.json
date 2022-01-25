@@ -1,7 +1,8 @@
 [
-    { "fundId": "0x01C7f6639C5E623f87287Ec344f2f7c11021a071", "enteredCompAtDate": "2021-08-16T00:00:00Z" },
-    { "fundId": "0x3B3E79a1542214dD875c1e6359d2e6C41f06c258", "enteredCompAtDate": "2021-08-16T00:00:00Z" },
-    { "fundId": "0xf5fA47d9ca6269D85965EAa5Af78A35b2cE016D4", "enteredCompAtDate": "2021-08-17T05:52:00Z" },
-    { "fundId": "0xaa96C35dec06e303Ea8CCD30771bFFa051794Ead", "enteredCompAtDate": "2021-08-16T00:00:00Z" },
-    { "fundId": "0x2a572A2C0cda254ef6F1cb2E49aEe44D5a6D4dB3", "enteredCompAtDate": "2021-08-16T15:42:00Z" }
+    { "fundId": "0xfaa26a7a7aa7950d203cfb710804a1d780778395", "enteredCompAtDate": "2021-12-21T00:00:00Z" },
+    { "fundId": "0x600971e265947678088d18891c02813a1dbaa3e2", "enteredCompAtDate": "2021-12-21T00:00:00Z" },
+    { "fundId": "0x2fbd33f07d414be3e3e112916504b9bdc5617b69", "enteredCompAtDate": "2021-12-21T00:00:00Z" },
+    { "fundId": "0x8fb7e97bd877c34c886f7e5288011251c2f23bb9", "enteredCompAtDate": "2021-12-27T07:00:00Z" },
+    { "fundId": "0x4ab0702b4a69bb0a94b6a643d27850743150492d", "enteredCompAtDate": "2021-12-21T00:00:00Z" }
 ]
+

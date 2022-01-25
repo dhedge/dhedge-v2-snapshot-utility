@@ -51,23 +51,41 @@ const investorsPromises = winningFundsFile
       console.log("Fetching all investors for fund: ", fundId);
       const investors = await poolLogicServiceFactory
         .getInstance(fundId)
-        .getInvestors();
-      return { fundId, investors };
+        .getInvestors()
+        .catch(() => undefined);
+      const downloadedFundsWithInvestors = [{ fundId, investors }];
+
+      const fundToInvestorsRaw = fs.existsSync(config.fundToInvestorsFile)
+        ? fs.readFileSync(config.fundToInvestorsFile, "utf-8")
+        : "[]";
+
+      const existingFundsWithInvestors: FundWithInvestors[] = JSON.parse(
+        fundToInvestorsRaw.toString()
+      );
+
+      const newFundsWithInvestors = [
+        ...existingFundsWithInvestors.filter((x) => x.investors),
+        ...downloadedFundsWithInvestors,
+      ];
+
+      const fundToInvestorsJson = JSON.stringify(
+        newFundsWithInvestors,
+        null,
+        4
+      );
+
+      fs.writeFile(
+        config.fundToInvestorsFile,
+        fundToInvestorsJson,
+        function (err) {
+          if (err) {
+            console.error(err);
+          }
+          console.log("Success");
+          console.log("Fund Investors:", newFundsWithInvestors);
+        }
+      );
     };
   });
 
-executeInSeries(investorsPromises).then((downloadedFundsWithInvestors) => {
-  const newFundsWithInvestors = [
-    ...existingFundsWithInvestors.filter((x) => x.investors),
-    ...downloadedFundsWithInvestors,
-  ];
-
-  const fundToInvestorsJson = JSON.stringify(newFundsWithInvestors, null, 4);
-  fs.writeFile(config.fundToInvestorsFile, fundToInvestorsJson, function (err) {
-    if (err) {
-      console.error(err);
-    }
-    console.log("Success");
-    console.log("Fund Investors:", newFundsWithInvestors);
-  });
-});
+executeInSeries(investorsPromises);
